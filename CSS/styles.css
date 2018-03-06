@@ -1,0 +1,46 @@
+ @font-face { font-family: Punk kid; src: url('punk kid.ttf'); }
+
+body {
+  background-image:
+      url("https://cdn.pixabay.com/photo/2016/04/21/15/48/structure-1343716_960_720.jpg");
+      size: 20px 20px;
+}
+h1 {
+    color: coral;
+}
+
+p {
+    color: white;
+    background-color: transparent;
+  }
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: transparent;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 35px;
+    text-decoration: none;
+    font-size: 45px;
+    font-family: Punk kid;
+    text-shadow: 2px 2px black;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    font-size:50px;
+    padding: 20px 35px;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    font-size: 60px;
+}
